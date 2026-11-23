@@ -64,7 +64,7 @@ export function HeroSection() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-20 items-center">
         {/* Kolom Kiri */}
         <div className="rounded-lg p-6 flex flex-col gap-6">
