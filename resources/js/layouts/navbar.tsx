@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Zap, Menu } from "lucide-react";
+import { Zap, Menu, FileCheck } from "lucide-react";
 import { Link } from "@inertiajs/react";
 
 import { Button } from "@/components/ui/button";
@@ -20,9 +20,9 @@ import {
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
-  { label: "Blog", href: "/blog" },
-  { label: "Pricing", href: "/pricing" },
+  { label: "Features", href: "/about" },
+  { label: "About", href: "/blog" },
+  { label: "FAQ", href: "/pricing" },
 ];
 
 export default function Navbar() {
@@ -32,10 +32,10 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-background">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-12">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3">
-          <Zap className="h-6 w-6 text-blue-600" />
-          <span className="text-xl font-semibold text-foreground">
-            <Link href="/">Taskflow</Link>
+        <Link href="/" className="flex items-center gap-2">
+          <FileCheck className="h-10 w-10 fill-blue-600 text-white " />
+          <span className="text-xl font-bold text-foreground">
+            <Link href="/">TaskFlow</Link>
           </span>
         </Link>
 
