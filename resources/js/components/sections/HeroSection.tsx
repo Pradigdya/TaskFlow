@@ -64,7 +64,7 @@ export function HeroSection() {
   ];
 
   return (
-    <section className="mx-auto bg-slate-50 py-20">
+    <section className="py-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 md:px-20 items-center">
         {/* Kolom Kiri */}
         <div className="rounded-lg p-6 flex flex-col gap-6">
@@ -136,7 +136,7 @@ export function HeroSection() {
 
         {/* Kolom Kanan: Gambar */}
         <div className="relative p-4 group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-2xl blur-xl opacity-25 group-hover:opacity-40 transition duration-500"></div>
+          <div className="absolute -inset-1 bg-linear-to-r from-blue-600 to-cyan-400 rounded-2xl blur-xl opacity-25 group-hover:opacity-40 transition duration-500"></div>
           <div className="relative rounded-2xl backdrop-blur-sm shadow-xl">
             <img
               src="/images/abc.jpg"

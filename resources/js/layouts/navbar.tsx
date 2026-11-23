@@ -20,7 +20,7 @@ import {
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "Features", href: "/about" },
+  { label: "Features", href: "#features" },
   { label: "About", href: "/blog" },
   { label: "FAQ", href: "/pricing" },
 ];
@@ -86,7 +86,7 @@ export default function Navbar() {
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[260px]">
+            <SheetContent side="right" className="w-65">
               <SheetHeader>
                 <SheetTitle className="flex items-center gap-2 text-left">
                   <Zap className="h-5 w-5 text-blue-600" />
