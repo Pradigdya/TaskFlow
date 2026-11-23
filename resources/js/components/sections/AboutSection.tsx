@@ -13,7 +13,7 @@ function AboutSection() {
                 <div className="absolute -inset-1 bg-linear-to-r from-blue-600 to-cyan-400 rounded-2xl blur-xl opacity-25 group-hover:opacity-40 transition duration-500"></div>
                 <div className="relative rounded-2xl backdrop-blur-sm shadow-xl">
                     <img
-                    src="/images/abc.jpg"
+                    src="/images/aboutus.jpg"
                     alt="heroimage"
                     className="w-full h-100 rounded-xl object-cover transition-transform duration-500 ease-out group-hover:-translate-y-1"
                     />
