@@ -4,7 +4,7 @@ import CardPricing from '../common/CardPricing'
 
 function PricingSection() {
   return (
-    <div>
+    <div id="pricing" className="px-6 md:px-20 scroll-mt-12">
         <div className="flex flex-col gap-4 text-center justify-center items-center mb-10">
             <Badge className="w-fit p-3 text-center bg-blue-100 text-blue-800 mt-5">Pricing</Badge>
             <h1 className="text-4xl  text-foreground">Simple, Transparent Pricing</h1>

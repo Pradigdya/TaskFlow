@@ -5,7 +5,7 @@ import { Check, ArrowRight } from 'lucide-react'
 
 function AboutSection() {
   return (
-    <div className="mx-auto max-w-7xl p-4 sm:p-6 mt-20">
+    <section className="mx-auto max-w-7xl p-4 sm:p-6 mt-20 scroll-mt-30" id="about">
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
         {/* Kolom Kiri (7/12 ≈ 58%) */}
         <div className="rounded-xl p-6 lg:col-span-7">
@@ -57,7 +57,7 @@ function AboutSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

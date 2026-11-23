@@ -5,7 +5,7 @@ import CardFeatures from '../common/CardFeatures'
 function FeaturesSection() {
   return (
     <>
-    <div className="flex flex-col items-center justify-center text-center gap-2" id="features">
+    <div className="flex flex-col items-center justify-center text-center gap-2 scroll-mt-45" id="features">
        <Badge className="w-fit p-3 text-center bg-blue-100 text-blue-800 mt-5"> Features</Badge>
        <h1 className="text-4xl  text-foreground">
          Everything You Need <br />in One <span className="text-blue-600 font-bold">Platform</span>
